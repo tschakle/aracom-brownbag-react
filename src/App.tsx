@@ -1,11 +1,12 @@
 import React from 'react'
 import './App.css'
+import FoodCard from './components/FoodCard'
 
 function App() {
     return (
-        <h1 className="text-3xl font-bold underline text-red-600">
-            Simple React Typescript Tailwind Sample
-        </h1>
+        <main className="flex items-center justify-center h-screen bg-gray-700">
+            <FoodCard />
+        </main>
     )
 }
 
